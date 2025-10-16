@@ -10,7 +10,7 @@ public static class TerrainOrderUtility
     public static void SetTerrainOrder()
     {
         var terrainSpriteRenderers = new List<SpriteRenderer>();
-        var transforms = Object.FindObjectsOfType<Transform>(true);
+        var transforms = Object.FindObjectsByType<Transform>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
         foreach (var transform in transforms)
         {
