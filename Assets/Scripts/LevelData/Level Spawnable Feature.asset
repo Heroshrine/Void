@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7c0b1504b39494892cdfa041d9365e5, type: 3}
+  m_Name: Level Spawnable Feature
+  m_EditorClassIdentifier: Assembly-CSharp::Void.LevelData.SchedulableFeature
+  <Prefab>k__BackingField: {fileID: 5780687657543622398, guid: 5f9099fcdbd5ad84fb6d64b1702bab44, type: 3}
+  <Probability>k__BackingField: 1
+  <RollDistributionCurve>k__BackingField: {fileID: 11400000, guid: b82179ea1b606804daedbe04e5207573, type: 2}
+  <BoostWhenBelow>k__BackingField: 4
+  <JitterSeconds>k__BackingField: 0.5
+  <BaseRate>k__BackingField: 0.5
